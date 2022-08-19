@@ -1,0 +1,92 @@
+.accordionReport {
+	position: relative !important;
+	border-radius: 15px !important;
+	margin-bottom: 70px !important;
+	background-color: #eeeeee !important;
+	padding: 20px 30px !important;
+}
+
+.reportPicture {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin-right: 20px;
+	margin-left: 40px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../../../assets/image/svg/report.svg");
+	box-shadow: 0 2px 5px #dddddd;
+}
+
+.reportName {
+	font-size: 1rem;
+	color: #222222;
+}
+
+.reportExtra {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.reportContainer {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.manuscript{
+	font-size: 16px;
+}
+
+.reportBit {
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.spiderChartContainer {
+	flex: 3;
+	background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 2px 5px #dddddd;
+}
+
+.percentContainer {
+	flex: 1;
+}
+
+.reportPercent{
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 26px;
+	background-color: #49DEE9;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 700;
+	box-shadow: 0 2px 5px #dddddd;
+}
+
+.areaChartContainer {
+	flex: 5;
+	background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 2px 5px #dddddd;
+	padding: 10px;
+}
+
+.areaChartContainer .recharts-surface {
+  padding-left: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+	.accordionReport {
+		padding: 15px !important;
+	}
+}

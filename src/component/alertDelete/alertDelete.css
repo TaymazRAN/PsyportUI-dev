@@ -1,0 +1,30 @@
+.react-confirm-alert-body {
+	padding: 20px !important;
+	text-align: right !important;
+}
+
+.react-confirm-alert-body h1 {
+	text-align: right;
+	margin: 0 0 15px;
+	font-size: 22px;
+}
+
+.react-confirm-alert-button-group > button:first-child {
+  background: transparent;
+  color: green;
+  border: 2px solid green;
+}
+
+.react-confirm-alert-button-group > button:last-child {
+  background: transparent;
+  color: red;
+  border: 2px solid red;
+}
+
+.react-confirm-alert-overlay {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.react-confirm-alert-body {
+    box-shadow: 0 6px 25px rgb(0 0 0 / 13%) !important;
+}
